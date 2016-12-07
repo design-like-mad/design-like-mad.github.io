@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
-<!--900-include=/includes/head.html-->
-  <body>
-<!--900-include=/includes/internal_nav.html-->
 
+    <head>
+        <title>Design Like Mad</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700|Roboto+Slab:700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/lightbox.css">
+    </head>
+  <body>
+
+        <div class="row">
+            <div id="resp-nav" class="collapse">
+                <button class="btn dropdown-toggle small-link" type="button" data-toggle="collapse" data-target="#about">
+                    <p>ABOUT<span class="caret"></span></p>
+                </button>
+                <div id="about" class="collapse">
+                    <a class="inner-dropdown" href="#"><p>About</p></a>
+                    <a class="inner-dropdown" href="#"><p>Gallery</p></a>
+                 
+                </div>
+                  <button class="btn dropdown-toggle small-link" type="button" data-toggle="collapse" data-target="#cities">
+                    <p>CITIES<span class="caret"></span></p>
+                  </button>
+                 <div id="cities" class="collapse">
+                    <a class="inner-dropdown" href="http://www.designlikemadmsn.org" target="_blank"><p>Madison, WI</p></a>
+                    <a class="inner-dropdown" href="http://www.designlikemadpdx.org" target="_blank"><p>Porland, OR</p></a>
+                     <a class="inner-dropdown" href="http://www.designlikemadsan.org" target="_blank"><p>San Diego, CA</p></a>
+                    <a class="inner-dropdown" href="http://www.designlikemadmke.org" target="_blank"><p>Milwaukee, WI</p></a>
+                    <a href="#" data-toggle="modal" data-target="#request"><p>Request Your City</p></a>
+                 </div>
+                   
+                <a href="/projects"><p class="big-link">PROJECTS</p></a>
+                <a href="#" data-toggle="modal" data-target="#host"><p class="small-link">HOST AN EVENT</p></a>
+                <a href="/press"><p class="small-link">NEWS</p></a>
+                <a href="/contact"><p class="big-link">CONTACT</p></a>
+            </div>
+        </div>
+        <div class="row" id="internal-header">
+            <div class="header-image center"></div>
+            <div class="nav-wrapper">
+                <div class="small-screen-nav clearfix">
+                    <button type="button" class="btn btn-menu" data-toggle="collapse" data-target="#resp-nav">
+                        MENU
+                    </button>
+                </div>
+                <div class="large-screen-nav">
+                    <div class="left-nav">
+                        <div class="dropdown">
+                            <a data-toggle="dropdown" href="#"><p class="small-link">ABOUT<span class="caret"></span></p></a>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel" id="about-dropdown">
+                                <a href="/about"><li>About</li></a>
+                                <a href="/gallery"><li>Gallery</li></a>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                          <a data-toggle="dropdown" href="#"><p class="small-link">CITIES<span class="caret"></span></p></a>
+                          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <a href="http://www.designlikemadmsn.org/" target="_blank"><li>Madison, WI</li></a>
+                              <a href="http://www.designlikemadpdx.org" target="_blank"><li>Portland, OR</li></a>
+                              <a href="http://www.designlikemadsan.org" target="_blank"><li>San Diego, CA</li></a>
+                              <a href="http://www.designlikemadmke.org" target="_blank"><li>Milwaukee, WI</li></a>
+                              <a href="#" data-toggle="modal" data-target="#request"><li>Request Your City</li></a>
+                          </ul>
+                        </div>
+                       <a href="/projects"><p class="big-link">PROJECTS</p></a>
+                    </div>
+                    <div class="right-nav">
+                       <a href="#" data-toggle="modal" data-target="#host"><p class="small-link">HOST AN EVENT</p></a>
+                       <a href="/press"><p class="small-link">NEWS</p></a>
+                       <a href="/contact"><p class="small-link">CONTACT</p></a>
+                    </div>
+                </div>
+            </div>
+            <div id="logo-position">
+                <a href="/index.html"><img src="/images/logo.png" /></a>
+            </div>
+        </div>
+        
         <div class="intro-text-wrapper press-title-wrapper">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2" >
