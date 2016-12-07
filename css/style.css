@@ -784,6 +784,34 @@ a .city-wrapper:hover {
         height: 50px;
     }
 
+    .right-nav a:first-child {
+        width: 40%;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .right-nav a:nth-child(2), .right-nav a:nth-child(3) {
+        width: 30%;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+
+    .right-nav p {
+        width: 100%;
+    }
+
+    /*.right-nav a:first-child p {
+        padding: 0 15px;
+    }
+
+    .right-nav a:first-child {
+        width: 130%;
+    }
+
+    
+    }*/
+
     .left-nav p, .right-nav p {
         float: left;
         text-align: center;
