@@ -20,6 +20,12 @@ h2 {
     font-weight: 300;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
 a {
     color: #fff;
 }
@@ -274,6 +280,13 @@ button.small-link:active {
     margin: 0;
     padding: 15px;
     width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-wrapper p {
+    color: #fff;
+    font-size: 14px;
 }
 
 #resp-nav p:hover {
@@ -348,7 +361,17 @@ button.small-link:active {
 }
 
 .about-text {
-    padding: 0 40px;
+    padding: 0 40px 40px 40px;
+}
+
+.about-text h4 {
+    margin-top: 30px;
+}
+
+.about-wrapper a {
+    color: #666;
+    text-decoration: underline;
+    font-size: 14px;
 }
 
 #sponsor-wrapper {
@@ -416,6 +439,10 @@ button.small-link:active {
     background-color: rgba(0, 0, 0, .5);
     padding: 20px 0;
     margin-bottom: 1px;
+}
+
+.city-wrapper p {
+    color: #fff;
 }
 
 .city-text {
