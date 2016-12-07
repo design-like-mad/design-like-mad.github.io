@@ -155,7 +155,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 .header-image {
     height: 150px;
     max-width: 1320px;
-    background-image: url(/images/header-image.png);
+    background-image: url(../images/header-image.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,7 +164,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 }
 
 #box-2 {
-    background: url('/images/collab.jpg') 0 0 no-repeat;
+    background: url('../images/collab.jpg') 0 0 no-repeat;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,7 +176,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 
 
 #box-3 {
-    background: url('/images/team2.jpg') 0 0 no-repeat;
+    background: url('../images/team2.jpg') 0 0 no-repeat;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -187,7 +187,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 }
 
 #box {
-    background: url('/images/team3.jpg') 0 0 no-repeat;
+    background: url('../images/team3.jpg') 0 0 no-repeat;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -198,7 +198,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 }
 
 #box-4 {
-    background: url('/images/team4.jpg') 0 0 no-repeat;
+    background: url('../images/team4.jpg') 0 0 no-repeat;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -490,7 +490,7 @@ button.small-link:hover, button.small-link:focus, button.small-link:active {
 }
 
 .media-wrapper {
-    background: #fff url(/images/bg_pattern.png) repeat 0 0;
+    background: #fff url(../images/bg_pattern.png) repeat 0 0;
     max-width: 1320px;
     margin: 0 auto;
     padding: 40px 0;
@@ -582,7 +582,7 @@ a .city-wrapper:hover {
 #internal-header .header-image {
     height: 100px;
     max-width: 1320px;
-    background-image: url(/images/internal-header.png);
+    background-image: url(../images/internal-header.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
