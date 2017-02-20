@@ -20,15 +20,12 @@ h2 {
     font-weight: 300;
 }
 
-<<<<<<< HEAD
 p {
     font-size: 16px;
     line-height: 1.6;
     color: #666;
 }
 
-=======
->>>>>>> gh-pages
 a {
     color: #fff;
 }
@@ -283,7 +280,6 @@ button.small-link:active {
     margin: 0;
     padding: 15px;
     width: 100%;
-<<<<<<< HEAD
     color: #fff;
     font-size: 14px;
 }
@@ -291,8 +287,6 @@ button.small-link:active {
 .nav-wrapper p {
     color: #fff;
     font-size: 14px;
-=======
->>>>>>> gh-pages
 }
 
 #resp-nav p:hover {
@@ -367,7 +361,6 @@ button.small-link:active {
 }
 
 .about-text {
-<<<<<<< HEAD
     padding: 0 40px 40px 40px;
 }
 
@@ -379,9 +372,6 @@ button.small-link:active {
     color: #666;
     text-decoration: underline;
     font-size: 14px;
-=======
-    padding: 0 40px;
->>>>>>> gh-pages
 }
 
 #sponsor-wrapper {
@@ -451,13 +441,10 @@ button.small-link:active {
     margin-bottom: 1px;
 }
 
-<<<<<<< HEAD
 .city-wrapper p {
     color: #fff;
 }
 
-=======
->>>>>>> gh-pages
 .city-text {
     float: left;
     text-align: left;
@@ -846,6 +833,7 @@ a .city-wrapper:hover {
     }
     .big-link {
         width: 40%;
+        color: #fff;
     }
     .left-nav p:hover,
     .right-nav p:hover {

@@ -833,6 +833,7 @@ a .city-wrapper:hover {
     }
     .big-link {
         width: 40%;
+        color: #fff;
     }
     .left-nav p:hover,
     .right-nav p:hover {
